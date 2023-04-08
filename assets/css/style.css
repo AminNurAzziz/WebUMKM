@@ -1,0 +1,566 @@
+body {
+    background-color: #FEFFDB;
+    font-family: 'Lato';
+}
+
+/* NAVBAR */
+@media (min-width: 720px) {
+    .navbar img {
+        width: 60px;
+    }
+
+    .navbar-brand span {
+        color: white;
+        font-size: 25px;
+    }
+
+    .navbar,
+    .description p {
+        font-size: 18px;
+    }
+
+    .nav-link,
+    .navbar-brand {
+        color: white;
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        color: #feffdb;
+    }
+
+    .navbar-nav .nav-link.active:hover {
+        color: black;
+    }
+
+    /* Page 2 */
+    .navbar-2 {
+        background-color: black;
+    }
+
+    /* navbar scrolled*/
+    .navbar {
+        color: #00a78e;
+        height: 98px;
+        transition: all 1s;
+    }
+
+    .navbar.scrolled {
+        background: #0f0f0f;
+        transition: background 500ms;
+        height: 65px;
+        transition: all 1s;
+        font-size: 16px;
+    }
+
+    .navbar-nav .nav-link.active.scrolledd:hover,
+    .nav-link.scrolledd:hover,
+    .nav-link.scrolledd:focus {
+        color: rgb(100, 100, 100);
+    }
+
+    .button {
+        margin-top: 30px;
+    }
+
+    /* landing page */
+    .landing-page {
+        padding-top: 8%;
+        background: linear-gradient(120.92deg, #F1AC18 41.46%, rgba(241, 172, 24, 0) 86.47%);
+        height: 625px;
+        position: relative;
+        width: 100%;
+        color: white;
+    }
+
+    .landing-page img {
+        width: 430px;
+    }
+
+    .title {
+        margin-top: -20px;
+    }
+
+    .isi-profil {
+        width: 65%;
+        margin: auto;
+    }
+
+    .all-produk {
+        background-image: linear-gradient(180deg,
+                hsl(62deg 100% 93%) 0%,
+                hsl(62deg 100% 93%) 31%,
+                hsl(62deg 100% 93%) 41%,
+                hsl(62deg 100% 93%) 49%,
+                hsl(62deg 100% 93%) 54%,
+                hsl(62deg 100% 93%) 59%,
+                hsl(62deg 100% 93%) 63%,
+                hsl(62deg 100% 93%) 67%,
+                hsl(62deg 100% 93%) 71%,
+                hsl(62deg 100% 93%) 74%,
+                hsl(59deg 100% 88%) 77%,
+                hsl(57deg 98% 84%) 80%,
+                hsl(55deg 96% 79%) 83%,
+                hsl(52deg 95% 75%) 86%,
+                hsl(50deg 93% 70%) 89%,
+                hsl(48deg 92% 65%) 92%,
+                hsl(46deg 91% 61%) 95%,
+                hsl(43deg 90% 56%) 97%,
+                hsl(41deg 89% 52%) 100%);
+    }
+
+    /* page 2 */
+    .all-produk-2 {
+        margin-top: 130px;
+    }
+
+    .produkku {
+        width: 80%;
+        margin: auto;
+    }
+
+    .produkku .card {
+        width: 15rem;
+    }
+
+    /* rcomend */
+    .recomended {
+        color: #F1AC18;
+        font-weight: bold;
+
+    }
+
+    .card-body .btn:hover {
+        animation: none;
+        transform: scale(1.1);
+        box-shadow: 0 0 5px 1px #f5e1b6;
+    }
+
+    .card {
+        background: #fffcd2;
+        overflow: hidden;
+    }
+
+    .card-index:hover .card-img-top {
+        transform: scale(1.1);
+    }
+
+    .card-index .card-img-top {
+        transition: all 1s;
+    }
+
+    .card-recomended .card:nth-child(2) {
+        transform: scale(1.1);
+    }
+
+    .card-recomended .card:nth-child(2) {
+        background: linear-gradient(124.3deg, #FFCB5B 7.24%, rgba(255, 203, 91, 0) 170.52%), #FFFFFF;
+    }
+
+    /* Galeri*/
+    .carousel-item img {
+        width: 250px;
+    }
+
+    /* page 3 */
+    .image-tim {
+        width: 90%;
+    }
+
+    .profil-company {
+        height: 450px;
+    }
+
+    .keterangan {
+        font-size: 18px;
+    }
+
+    .profil-perusahaan {
+        height: 625px;
+    }
+
+    .dropdown-menu {
+        margin-left: -65px;
+    }
+
+    .our-tim hr {
+        border: solid 1px #F1AC18;
+        width: 10%;
+        display: block;
+        margin: auto;
+        border-radius: 90%;
+    }
+}
+
+/* general */
+/* Produk */
+.title-produk h2 {
+    color: #F1AC18;
+    font-weight: bold;
+}
+
+.title-produk hr {
+    border: solid 1px #F1AC18;
+    width: 10%;
+    display: block;
+    margin: auto;
+    border-radius: 90%;
+}
+
+.about h1 {
+    background-color: white;
+}
+
+.galeri hr {
+    border: solid 1px white;
+    width: 10%;
+    margin: auto;
+}
+
+.produk-recomended h2 {
+    text-shadow: 1px 1px 3px #ffe6b1;
+}
+
+
+.produk-recomended hr {
+    border: solid 1px #F1AC18;
+    width: 15%;
+    border-radius: 90%;
+    display: block;
+    margin: auto;
+}
+
+.card-produk {
+    width: 100%;
+    margin: auto;
+}
+
+.produk .card-index:nth-child(1) {
+    background: linear-gradient(124.3deg, #FFCB5B 7.24%, rgba(255, 203, 91, 0) 170.52%), #FFFFFF;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+    .navbar img {
+        width: 40px;
+    }
+
+    .navbar {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+
+    .navbar {
+        color: black;
+    }
+
+    /* landing page */
+    .landing-page {
+        padding-top: 8%;
+        background: linear-gradient(120.92deg, #F1AC18 41.46%, rgba(241, 172, 24, 0) 86.47%);
+        height: 673px;
+        position: relative;
+        width: 100%;
+        color: white;
+    }
+
+    .landing-page img {
+        margin-top: -15px;
+        width: 240px;
+    }
+
+    .title {
+        margin-top: 20px;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+
+    .title h5 {
+        font-size: 12px;
+    }
+
+    .keterangan {
+        font-size: 18px;
+    }
+
+    .isi-profil {
+        width: 85%;
+        margin: auto;
+    }
+
+    .title-produk {
+        width: 80%;
+        margin: auto;
+    }
+
+    .selengkapnya,
+    .btn-lg {
+        font-size: 12px;
+    }
+
+    .carousel-item img {
+        width: 150px;
+        margin: 3px 1px;
+    }
+
+    .description h1 {
+        margin-top: 30px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .description p,
+    .galeri h2 {
+        font-size: 16px;
+    }
+
+    .kontak,
+    .social-media {
+        font-size: 13px;
+    }
+
+    .social-media svg {
+        width: 20px;
+        margin-left: 20px;
+    }
+
+
+    .all-produk-2 {
+        margin-top: 80px;
+    }
+
+    .image-tim {
+        width: 70%;
+    }
+
+    .img {
+        margin-bottom: 10px;
+    }
+
+    .all-produk {
+        background-image: linear-gradient(180deg,
+                hsl(62deg 100% 93%) 20%,
+                hsl(51deg 94% 73%) 85%,
+                hsl(41deg 89% 52%) 100%);
+    }
+
+    .all-produk-2 {
+        background-image: linear-gradient(180deg,
+                hsl(62deg 100% 93%) 50%,
+                hsl(51deg 94% 73%) 85%,
+                hsl(41deg 89% 52%) 100%);
+
+    }
+
+    .produkku {
+        width: 90%;
+        margin: auto;
+    }
+
+    .produkku .card {
+        width: 90%;
+        margin: 0px;
+    }
+
+    .produkku .card-body h3 {
+        font-size: 18px;
+    }
+
+    .produkku .card-body p {
+        font-size: 14px;
+    }
+
+
+    .title h5 {
+        font-size: 20px;
+    }
+
+    .quick a {
+        display: block;
+        font-size: 15px;
+    }
+
+    .title-produk hr {
+        border: solid 1px #F1AC18;
+        width: 100%;
+        display: block;
+        margin: auto;
+        border-radius: 90%;
+    }
+
+    .our-tim hr {
+        border: solid 1px #F1AC18;
+        width: 35%;
+        display: block;
+        margin: auto;
+        border-radius: 90%;
+    }
+}
+
+
+/* general */
+.btn-outline-warning {
+    background-color: #feffdb;
+}
+
+.btn:hover {
+    color: #feffdb;
+    animation: none;
+}
+
+.btn-animation {
+    animation: shake 0.5s ease-in infinite;
+}
+
+/* SHAKE ANIMATION */
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0eg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* SHAPE BACKGROUND */
+.shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.shape svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 200px;
+}
+
+.shape .shape-fill {
+    fill: #fdffbf;
+}
+
+/* profil page 1*/
+.profil-company {
+    background: linear-gradient(180deg, rgba(27, 28, 30, 0.8) 0%, rgba(27, 28, 30, 0.99) 100%),
+        url('../img/bg.png') no-repeat right bottom fixed;
+    color: white;
+}
+
+/* Galeri */
+.galeri {
+    background: linear-gradient(180deg, rgba(27, 28, 30, 0.8) 0%, rgba(27, 28, 30, 0.99) 100%),
+        url('../img/bg.png') no-repeat right bottom fixed;
+    color: white;
+}
+
+/* FOOTER */
+.copyright {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* list */
+ul li {
+    list-style: none;
+}
+
+/* ANIMATION SCROLL */
+.reveal {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.social-media a {
+    color: black;
+    list-style: none;
+}
+
+
+
+.quick-collection {
+    margin-left: 13px;
+}
+
+.footer ul li,
+.footer a {
+    margin-left: -12px;
+    color: black;
+    text-decoration: none;
+}
+
+.selanjutnya b,
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.selanjutnya b,
+a:hover {
+    color: rgb(71, 71, 71);
+}
+
+
+/* page 2 */
+.head {
+    /* height: 50px; */
+    color: white;
+    background-color: #0f0f0f;
+}
+
+
+.up:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.our-tim {
+    background-color: white;
+}
+
+.quick span {
+    display: block;
+    font-size: 18px;
+}
+
+.quick .fs,
+.kontak .fs,
+.sosmed .fs {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-body .btn {
+    background-color: #F1AC18;
+    color: white;
+    font-weight: 400;
+}
